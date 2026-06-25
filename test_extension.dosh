@@ -1,0 +1,22 @@
+#Test file for extension system#
+
+print(Testing Dosh Extensions!)
+print()
+
+#Import and use the example extension#
+import example_extension
+
+print(Calling extension functions:)
+print()
+
+example_extension.greet
+print()
+
+example_extension.showtime
+print()
+
+example_extension.goodbye
+print()
+
+print(Showing extension help:)
+example_extension.help

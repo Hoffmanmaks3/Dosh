@@ -1,0 +1,39 @@
+<anything in here you are supposed to insert when writing the code>
+#<comment here>#
+print(<value>)
+print($<variable)
+var <value> - <variable>
+var $<variable> - <variable>
+var input <value to print> <variable> #<- this assigns a variable to the user's input#
+var function <variable>:
+<code here>
+/function
+if "<value>" = "<value>":
+<code here>
+/if
+if key "<1 character here>":
+<code here>
+/if #<- if the key in the "" is down, the if activates #
+if lastkey "":
+<code here>
+/if #<if the last key pressed was the key in the "" then activate the if#
+#the key and lastkey can also be cmd, ctrl, alt, tab, enter, backspace, shift, just type in the full name.#
+list ["<value>", $<variable>, etc.] - <variable> #<- this variable equals each value from the list, or all of them#
+if "<value>" $<variable>:
+/if
+close() #<- closes the program.#
+textcolor <insert color here> #in the insert color here, add hex without the #, as well as red, orange, etc.#
+pause <value in milliseconds> #<- pauses before continuing#
+repeat <value in number>:
+/rep
+showerror #<- prints errors at the end#
+import html #<- imports html#
+html
+<put html here>
+/html
+import python
+python
+<python here>
+/python
+createfile "<file name>"
+writeto "<file name>"

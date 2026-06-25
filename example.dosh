@@ -1,0 +1,47 @@
+#This is a sample Dosh program demonstrating the language features#
+
+print(Welcome to Dosh!)
+print()
+
+#Variables#
+var Hello, World! - greeting
+print($greeting)
+print()
+
+#Numbers#
+var 42 - answer
+print(The answer is:)
+print($answer)
+print()
+
+#User input#
+var input What is your name? - username
+print(Hello,)
+print($username)
+print()
+
+#Lists#
+list ["apple", "banana", "cherry"] - fruits
+print(Fruits:)
+print($fruits)
+print()
+
+#Conditionals#
+var 10 - num
+if "10" = "10":
+print(Numbers match!)
+/if
+
+print()
+
+#Functions#
+var function greet:
+print(This is a custom function!)
+print(Functions are awesome!)
+/function
+
+print(Calling the greet function:)
+greet
+
+print()
+print(Program finished!)
