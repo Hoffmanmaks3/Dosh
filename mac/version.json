@@ -1,0 +1,10 @@
+{
+    "version": "1.0",
+    "release_date": "2025-11-22",
+    "changes": [
+        "Initial release",
+        "Core language features",
+        "Extension system",
+        "Windows and macOS support"
+    ]
+}

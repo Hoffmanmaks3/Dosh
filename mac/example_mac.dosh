@@ -1,0 +1,28 @@
+#Example Dosh program for macOS#
+
+print(Hello from Dosh on macOS!)
+print()
+
+textcolor cyan
+print(Testing colors with ANSI codes!)
+textcolor green
+print(Green text!)
+textcolor yellow
+print(Yellow text!)
+textcolor white
+print()
+
+var macOS is awesome! - message
+print($message)
+print()
+
+var input What's your favorite color? - color
+textcolor blue
+print(Nice choice!)
+textcolor white
+print($color)
+print(is a great color!)
+print()
+
+pause 1000
+print(Program complete!)
