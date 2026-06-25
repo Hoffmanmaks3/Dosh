@@ -22,7 +22,7 @@ A custom programming language interpreter for Windows that executes `.dosh` file
 
 1. **Install Python** (if not already installed):
    - Download from https://www.python.org/
-   - Make sure to check "Add Python to PATH" during installation
+   - Check "Add Python to PATH" during installation
 
 2. **Install Dosh**:
    - Right-click `install.bat`
