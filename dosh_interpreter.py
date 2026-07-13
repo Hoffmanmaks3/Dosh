@@ -29,7 +29,6 @@ class DoshInterpreter:
         self.extensions_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'extensions')
         self.current_file_dir = os.getcwd()
         
-        # Create extensions directory if it doesn't exist
         if not os.path.exists(self.extensions_dir):
             os.makedirs(self.extensions_dir)
     
@@ -46,7 +45,6 @@ class DoshInterpreter:
                     print(f"\nError: {error_msg}")
                 return False
             
-            # Read the main.dosh file to extract functions
             with open(main_dosh, 'r', encoding='utf-8') as f:
                 ext_code = f.read()
             
