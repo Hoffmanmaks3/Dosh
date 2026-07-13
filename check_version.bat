@@ -1,6 +1,5 @@
 @echo off
 REM Dosh Version Checker
-REM Displays current and installed versions
 REM Made by Maks Hoffman
 
 echo ========================================
